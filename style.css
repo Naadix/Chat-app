@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Content Start*/
+.content{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    align-items: center;
+}
+.content .left-c{
+    height: 90%;
+    background: linear-gradient(to bottom , #e040fb, #d500f9    );
+    border-radius: 0 0 200px 200px;
+    margin-right: -60px;
+}
+.content .conversation{
+    display: flex;
+    flex-direction: column;
+    height: 83%;
+    width: 85%;
+    border-radius: 30px;
+    box-shadow:0 0 5px 1px rgba(0, 0, 0, 0.119);
+    background: #ffff;
+    cursor: pointer;
+}
+.content .conversation .container{
+    background: #bdbdbd2c; 
+    border-radius: 20px;
+    height: 95%;
+    margin: 10px;
+}
+.content .conversation  .row1{
+    display: flex;
+    align-items: center;
+    background:linear-gradient(to right ,#d500f9,#e040fb);
+    height: 60px;
+    border-radius: 15px 15px 8px 8px;
+    padding: 12px 10px;
+}
+.content .conversation .row1 img{
+    width: 30px;
+    border-radius: 50%;
+}
+.content .conversation  .row1 .user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content .conversation  .row1 .user h3{
+    font-family: 'kanit';
+    font-size: 10px;
+    color: white;
+    font-weight: 600;
+}
+.content .conversation  .row1 .user span{
+    font-family: 'kanit';
+    font-size: 8px ;
+    font-weight: 200;
+    color: white;
+}
+#ellips{
+    font-size: 15px;
+    color: white;
+    margin-left: 80px;
+}
+#angle{
+    font-size: 15px;
+    color: white;
+    margin-right:  25px;
+    
+}
+.content .conversation  .row1 .user .title{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7px;
+}
+.content .conversation .row2{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    row-gap: 10px;
+
+}
+.content .conversation .row2 .msg1 ,.msg2,.msg6 {
+    color: #CC2EFA;
+    background: #bdbdbd6b;
+    font-size: 10px;
+    font-family: 'kanit';
+    height: 36px;
+    width: 70%;
+    border-radius: 10px;
+    padding: 0 8px;
+    font-weight: 400;
+}
+.content .conversation .row2 .msg3 .dog{
+    display: flex;
+    column-gap: 8px;
+    float: right;
+}
+.content .conversation .row2 .msg3 .dog img{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+}
+.content .conversation .row2 .msg4 {
+    color:rgba(0, 0, 0, 0.603);
+    background:#FFFFFF;
+    font-size: 10px;
+    font-family: 'kanit';
+    height: 36px;
+    width: 70%;
+    border-radius: 10px;
+    padding: 0 8px;
+    font-weight: 400;
+    margin-left: 75px;
+}
+.content .conversation .row2 .msg5 {
+    color:rgba(0, 0, 0, 0.603);
+    background:#FFFFFF;
+    font-size: 10px;
+    font-family: 'kanit';
+    height: 20px;
+    width: 45%;
+    border-radius: 10px;
+    padding: 0 8px;
+    font-weight: 400;
+    margin-left: 130px;
+}
+.content .conversation .row2 .msg6 {
+    color: #CC2EFA;
+    background: #bdbdbd6b;
+    font-size: 10px;
+    font-family: 'kanit';
+    height: 48px;
+    width: 70%;
+    border-radius: 10px;
+    padding: 0 8px;
+    font-weight: 400;
+}
+.content .conversation .row2 .msg7{
+    width: 75%;
+    height: 30px;
+    background: linear-gradient(to right ,#D358F7,#A901DB);
+    border-radius: 10px 10px 10px 3px;
+    font-size: 10px;
+    font-family: 'kanit';
+    display: flex ;
+    align-items: center;
+    color: white;
+    padding: 0 8px;
+    font-weight: 200;
+}
+#circle{
+    margin-right: 10px;
+}
+.content .conversation .row2 .msg7 #price{
+    margin-left: 40px;
+    font-weight: 500;
+}
+.content .conversation .row2 .msg7 #price2{
+    margin-left: 60px;
+    font-weight: 500;
+}
+.content .conversation .row2 .msg8 {
+    display: flex;
+    border-radius: 20px;
+    width: 100%;
+    height: 35px;
+    background-color: white;
+    align-items: center;
+    font-family: 'kanit';
+    font-size: 10px;
+    font-weight: 200;
+    justify-content: space-between;
+    padding: 0 10px;
+    color: #A4A4A4;
+}
+#circle-right{
+    font-size: 22px;
+    color: #151515;
+}
+.content .text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+   width: 60%;
+   margin-left: 30px;
+}
+.content .text h2{
+    font-family: 'kanit';
+    font-size: 30px;
+    color: #151515;
+    font-weight: 400;
+}
+.content .text p{
+    color: #BDBDBD;
+    font-weight: 400;
+    font-family: 'kanit';
+    line-height: 1.4;
+    font-size: 14px;
+}
+/*Content End*/
+
+
+
